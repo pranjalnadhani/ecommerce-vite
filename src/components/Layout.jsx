@@ -12,6 +12,11 @@ export function Layout({ children }) {
         <Link to="/">E-commerce</Link>
         <ul className="flex gap-x-4 text-xs items-center">
           <li>
+            <Link to="/orders" className="bg-gray-900 text-white px-2 py-1 rounded-lg">
+              Orders
+            </Link>
+          </li>
+          <li>
             <Link to="/cart" className="bg-gray-900 text-white px-2 py-1 rounded-lg">
               Cart ({cart.length})
             </Link>
